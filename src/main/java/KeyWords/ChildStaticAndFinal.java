@@ -1,6 +1,11 @@
 package KeyWords;
 
 public class ChildStaticAndFinal extends StaticAndFinal{
+    public static String WEB_AUTOMATION_TOOL;
+    static {
+        WEB_AUTOMATION_TOOL = "Selenium";
+    }
+
     public static void main(String[] args) {
         ChildStaticAndFinal childStaticAndFinal = new ChildStaticAndFinal();
         String s = childStaticAndFinal.state;
@@ -13,6 +18,8 @@ public class ChildStaticAndFinal extends StaticAndFinal{
 
         testS();
         childStaticAndFinal.testF();
+
+        System.out.println(WEB_AUTOMATION_TOOL);
     }
 
     /*public final void testF(){
