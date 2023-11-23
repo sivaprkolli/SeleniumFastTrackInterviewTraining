@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test Suite">
+    <parameter name="url" value="https://github.dev/siva9kolli/JavaTrainig/tree/main/src"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="os" value="Windows"></parameter>
+
+    <test verbose="2" preserve-order="true" name="SmokeTest">
+        <parameter name="environment" value="Staging"></parameter>
+        <classes>
+            <class name="TestNG.ParametersFromXML"/>
+        </classes>
+    </test>
+</suite>

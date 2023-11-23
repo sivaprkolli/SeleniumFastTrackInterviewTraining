@@ -5,11 +5,8 @@
     <test verbose="2" preserve-order="true"
           name="SmokeTest">
         <classes>
-            <class name="TestNG.UsingGroups">
-                <methods>
-                    <exclude name="completePayment"></exclude>
-                </methods>
-            </class>
+            <class name="TestNG.TestNGExecuteUsingXMLFile"/>
+            <class name="TestNG.BasicsOfTestNG"/>
         </classes>
     </test>
 </suite>
