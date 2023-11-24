@@ -10,6 +10,8 @@ import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
+import java.time.Duration;
+
 public class DropDownHandling {
     public static WebDriver driver;
 
@@ -25,6 +27,7 @@ public class DropDownHandling {
         driver = new ChromeDriver(options);
         driver.get("https://the-internet.herokuapp.com/dropdown");
 
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         WebElement dropDownList = driver.findElement(By.id("dropdown"));
         Select dropDownSelect = new Select(dropDownList);
         dropDownSelect.selectByVisibleText("Option 1");
