@@ -2,10 +2,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true"
-          name="SmokeTest">
+    <test verbose="2" preserve-order="true" name="SmokeTest">
         <classes>
-            <class name="TestNG.TestNGExecuteUsingXMLFile"/>
+            <class name="TestNG.TestNGExecuteUsingXMLFile"></class>
             <class name="TestNG.BasicsOfTestNG"/>
         </classes>
     </test>
