@@ -1,0 +1,118 @@
+Automation Interview Plan:
+
+ CoreJava:
+
+ OOPS Concepts
+  - Inheritance - Reusability, Extends keyword
+  			   - If we inherited no issue
+
+  			  // not finalized
+  			   - we can use static? -  The best usage is create object, parallel executions, mult threading concepts we will get issue when we static variables/functions
+
+ //why to create
+
+
+  - Polymorphism - Method OverLoading & Method OverRiding
+
+  10th Class A - Stud1 , Stud2 both are twins
+
+  10th Class B - Stud1
+
+
+ 1. Static binding/Compile-Time binding/Early binding/Method overloading.(in same class)
+
+ 2. Dynamic binding/Run-Time binding/Late binding/Method overriding.(in different classes)
+
+
+  - Abstraction - Abstract & Interface
+
+ // need to check
+  -Interface can have only abstract methods. Since Java 8, it can have default and static methods also.
+  - Abstract class can have final, non-final, static and non-static variables.
+  - abstract class can have class members like private, protected, etc.
+
+
+  - Encapsulation - also called as data hiding
+  private varibales cannot be accessed to other class, can only be accessed by calling methods
+
+  - Constructor - Same as class name
+  - Access Mofiers
+       - Public - Any where in the project
+       - Private - within the class
+       - Protected - Outside Package
+       - Default - within the package
+
+        under constructor - different objects with same class name
+
+ Strings
+ Exceptions
+ Collections
+ Programs
+ upcasting & downcasting
+
+
+ TestNG:
+
+
+ Selenium:
+
+ Locators:
+
+ id
+ name
+ className
+ tag
+ linkText
+ partialLinkText
+
+ xpath = //tagName[@attribute='value']
+
+ functions: starts-with(@attribute, 'value'), ends-with(@attribute, 'value'), contains(@attribute, 'value'), text(), normalize-space(), position()
+ //input[starts-with(@id,'UserFirstName')]
+ //input[contains(@id,'UserFirstName')]
+ //*[normalize-space()='First name']
+
+ conditions:
+
+ and, or
+
+ axis:
+ - preceding-sibling -> backward traverse
+ - following-sibling -> forward traverse
+
+
+
+
+
+ cssSelector= tagName[attribute='value']
+
+ using class - .classValue
+ using id - #idValue
+
+ axis:
+ following-sibling similar:
+ tag + tag
+
+ starts-with -> button[onclick^='js']
+ ends-with -> button[onclick$='js']
+ contains -> button[onclick*='js']
+
+
+
+
+ Exceptions:
+ UnsupportedOperationException
+ InvalidSelectorException
+ ElementClickInterceptedException
+ ElementNotInteractableException
+ NoSuchElementException
+
+
+
+ Verification Methods:
+ - isDisplayed()
+ - isSelected()
+ - isEnabled()
+
+ CucucmberBDD : 1 Workshop & Parctice
+
