@@ -28,6 +28,7 @@ public class DropDownHandling {
         driver.get("https://the-internet.herokuapp.com/dropdown");
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+        
         WebElement dropDownList = driver.findElement(By.id("dropdown"));
         Select dropDownSelect = new Select(dropDownList);
         dropDownSelect.selectByVisibleText("Option 1");
