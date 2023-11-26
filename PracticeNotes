@@ -106,7 +106,14 @@ Automation Interview Plan:
  ElementClickInterceptedException
  ElementNotInteractableException
  NoSuchElementException
+TimeoutException
 
+Waits:
+WebDriverWait:
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.name: start my free tria (tried for 20 second(s) with 500 milliseconds interval)
+
+FluentWait:
+org.openqa.selenium.TimeoutException: Expected condition failed: Failed due to element not found (tried for 15 second(s) with 8000 milliseconds interval)
 
 
  Verification Methods:
