@@ -14,7 +14,7 @@ public class Conditions {
             System.out.println("Apply for voter card");
         }
 
-        String day = "Sunday";
+        String day = "Wednesday";
 
         switch (day){
             case "Sunday":
@@ -23,6 +23,9 @@ public class Conditions {
             case "Tuesday":
                 System.out.println("Tuesday is WFH");
                 break;
+
+            case "Wednesday":
+                throw new RuntimeException("Wednesday is public Holiday");
             default:
                 System.out.println("Goto office");
         }
