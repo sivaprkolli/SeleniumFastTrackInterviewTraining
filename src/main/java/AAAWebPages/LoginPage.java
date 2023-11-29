@@ -40,6 +40,10 @@ public class LoginPage {
         loginButton.click();
     }
 
+    public boolean isUserNameInputBoxDisplayed(){
+        return userNameInputBox.isDisplayed();
+    }
+
     public void login() {
         driver.findElement(userNameField).sendKeys("standard_user");
         driver.findElement(passwordField).sendKeys("secret_sauce");
