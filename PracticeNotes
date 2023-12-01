@@ -123,3 +123,41 @@ org.openqa.selenium.TimeoutException: Expected condition failed: Failed due to e
 
  CucucmberBDD : 1 Workshop & Parctice
 
+
+Git Commands:
+STep1: git clone url
+Step2: git status 
+STep3: git add test.java
+Step4: git commit -m "java file"
+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
+Step5: git push
+
+
+Step6: Create a branch
+ a) direct from Github - goto main dropdown - add the branch
+ b) git checkout -b testPython
+
+ Step7: git branch - for checking branch
+ Step8: Create Pull Request
+ Step9: 2 Reviews - they should approve
+ Step10: Merge from Github
+
+
+ Step11: git merge branchname
+
+// getting latest code from anybranch
+ Step1: i'm in testA branch
+ Step2: push code to testA before checkout to main
+ STep3: git checkout main
+ STep4: git pull 
+ Step5: git checkout testA
+ STep6: git merge main
+
+
+// getting latest code from anybranch
+ Step1: i'm in testA branch
+ Step2: push code to testA
+ STep4: git pull origin branchname "testB"
+ Step5: git push origin testA
+ 
+
