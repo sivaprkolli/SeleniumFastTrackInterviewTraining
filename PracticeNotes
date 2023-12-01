@@ -129,7 +129,6 @@ STep1: git clone url
 Step2: git status 
 STep3: git add test.java
 Step4: git commit -m "java file"
-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
 Step5: git push
 
 
