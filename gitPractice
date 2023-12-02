@@ -1,0 +1,35 @@
+Scenario1:
+1. Repo
+2. Clone
+3. git checkout -b myBranch
+4. write some, testA, testB
+5. git add testA testB
+6. git commit -m "added feature name"
+7. git push origin myBranch
+8. create a PR
+9. Reviewers will do review
+10. merge branch to main
+
+Scenario2:
+11. 2 develops work on same line of code on different branches
+12. Conflicts arise
+13. resolve conflicts
+
+Scenario3:
+14. Branch1, Branch2, your branch is Branch2
+15. Branch1 - had updated code, dependeny code present in Branch1. but ready for PR
+16. git add, commit , push
+17. git pull origin Branch1
+18. git push
+19. dependency code will appear on your branch Branch2
+
+Scenario4: 
+20. Branch1, Branch2, your branch is Branch2
+21. Branch1 - had updated code, dependeny code present in Branch1. but ready for PR
+22. git add, commit , push
+23. git checkout Branch1
+24. git pull Branch1
+25. git checkout Branch2
+26. git merge Branch1
+27. git push
+
