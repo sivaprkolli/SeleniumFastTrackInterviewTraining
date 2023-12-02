@@ -25,5 +25,6 @@ public class AboutHashMap {
 
 
         System.out.println(hashMap1);
+        System.out.println(hashMap1.get(1));
     }
 }
