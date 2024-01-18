@@ -19,9 +19,19 @@ public class ShadowRoot {
 
         SearchContext shadowRootElement = driver.findElement(By.cssSelector("book-app[apptitle='BOOKS']")).getShadowRoot();
         shadowRootElement.findElement(By.cssSelector("input[aria-label=\"Search Books\"]")).sendKeys("Test123");
+    }
 
+    @Test
+    public void assignmentTest2(){
+        ChromeOptions options = new ChromeOptions();
+        options.setBrowserVersion("120");
 
+        driver = new ChromeDriver(options);
+        driver.get("https://www.salesforce.com/in/");
 
+        SearchContext mainShadowRoot = driver.findElement(By.xpath("(//*[@origin=\"https://wp.sfdcdigital.com/en-in/wp-json\"])[1]")).getShadowRoot();
+        mainShadowRoot.findElement(By.cssSelector("[data-tracking-type=\"cta-utility\"]")).click();
 
+        driver.quit();
     }
 }
