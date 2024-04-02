@@ -12,7 +12,7 @@ public class MyFirstTest {
     @Test
     public void assignmnetTest(){
         ChromeOptions options = new ChromeOptions();
-        options.setBrowserVersion("119");
+        //options.setBrowserVersion("119");
         driver = new ChromeDriver(options);
         driver.get("https://the-internet.herokuapp.com/");
     }
