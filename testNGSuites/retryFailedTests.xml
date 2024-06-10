@@ -7,10 +7,10 @@
         <listener class-name="TestNG.RetryTransformer"></listener>
     </listeners>
 
-
     <test verbose="2" preserve-order="true" name="SmokeTest">
         <classes>
             <class name="TestNG.UsingForCheckingRetryFailedTests"/>
         </classes>
     </test>
+
 </suite>

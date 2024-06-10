@@ -1,0 +1,388 @@
+{
+  "createdAt": "2024-02-15T14:10:53.117578",
+  "session_data": {
+    "session_storage": {
+      "__rtbh.uid": "{\"eventType\":\"uid\",\"id\":\"unknown\"}",
+      "originalReferrer": "",
+      "originalUtmSource": "",
+      "@@scroll|loadPage": "[0,0]",
+      "originalUtmMedium": "",
+      "fontsLoadedCriticalFoftPreloadFallback": "true",
+      "__rtbh.lid": "{\"eventType\":\"lid\",\"id\":\"L0b81UHQtsghJhKFfkJj\"}",
+      "originalGclid": "",
+      "hasSetOriginalReferrer": "true",
+      "originalUtmCampaign": "",
+      "fbssls_202024763332607": "{\"authResponse\":null,\"status\":\"unknown\",\"expiresAt\":1708072851197}"
+    },
+    "local_storage": {
+      "__rtbh.uid": "{\"eventType\":\"uid\",\"id\":\"unknown\"}",
+      "_GESPSK-33across.com": "[\"33across.com\",null,1707986447377,null,null,null,null,null,null,[100]]",
+      "_GESPSK-id5-sync.com": "[\"id5-sync.com\",null,1707986448543,null,null,null,null,null,null,[106]]",
+      "__rtbh.lid": "{\"eventType\":\"lid\",\"id\":\"L0b81UHQtsghJhKFfkJj\"}",
+      "WZRK_META": "%7B%22useIP%22%3Afalse%2C%22ps%22%3A1707986447%2C%22cs%22%3A1707986447%2C%22sc%22%3A1%7D",
+      "WZRK_EV": "%7B%22Home%20Viewed%22%3A%5B1%2C1707986449%2C1707986449%5D%2C%22Header%20Link%20Clicked%22%3A%5B1%2C1707986450%2C1707986450%5D%2C%22Logged%20In%22%3A%5B1%2C1707986452%2C1707986452%5D%2C%22Performance%22%3A%5B2%2C1707986453%2C1707986453%5D%7D",
+      "lastExternalReferrer": "empty",
+      "panoramaId_expiry_exp": "1708072847591",
+      "getSessionStorage": "1707986448002",
+      "@firebase/performance/configexpire": "1708029651879",
+      "panoramaId_expiry": "1708072847591",
+      "_GESPSK-uidapi.com": "[\"uidapi.com\",null,1707986447377,null,null,null,null,null,null,[100]]",
+      "ajs_anonymous_id": "\"00d74262-3022-4b4d-9028-b9f350a9de37\"",
+      "WZRK_FPU": "false",
+      "_GESPSK-esp.criteo.com": "[\"esp.criteo.com\",null,1707986447377,null,null,null,null,null,null,[100]]",
+      "_GESPSK-openx": "[\"openx\",null,1707986447466,null,null,null,null,null,null,[111]]",
+      "lastExternalReferrerTime": "1707986447943",
+      "_GESPSK-crwdcntrl.net": "[\"crwdcntrl.net\",\"\",1707986447605]",
+      "ajs_user_id": "\"kq5EmJLCeSUXzXdhdrd926\"",
+      "ajs_user_traits": "{\"nid\":\"00d74262-3022-4b4d-9028-b9f350a9de37\",\"email\":\"siva8kolli@gmail.com\",\"name\":\"Siva Reddy\",\"phone\":\"+659885952948\",\"user_id\":\"kq5EmJLCeSUXzXdhdrd926\",\"country\":\"sg\"}",
+      "WZRK_X": "%7B%22cache%22%3A%5B%5B%22kq5EmJLCeSUXzXdhdrd926%22%2C%22dc5fe16372c1415380e7345aaa14913f%22%5D%5D%7D",
+      "_cc_id": "167f2e088818a4e3db7d05c50a54d1c5",
+      "intercom.intercom-state-e90pxaa2": "{\"app\":{\"color\":\"#216BFF\",\"secondaryColor\":\"#216BFF\",\"openConfig\":{\"layout\":\"default\",\"openTo\":\"home\",\"spaces\":[{\"type\":\"home\",\"label\":\"Home\",\"navigationLabel\":\"Home\",\"badge\":null},{\"type\":\"messages\",\"label\":\"Messages\",\"navigationLabel\":\"Messages\",\"badge\":null},{\"type\":\"tickets\",\"label\":\"Tickets\",\"navigationLabel\":\"Tickets\",\"badge\":null},{\"type\":\"help\",\"label\":\"Help\",\"navigationLabel\":\"Help\",\"badge\":null},{\"type\":\"tasks\",\"label\":\"Tasks\",\"navigationLabel\":\"Tasks\",\"badge\":null}],\"userHasReceivedChecklists\":false,\"userHasLiveNewsfeed\":false,\"userHasTickets\":false},\"selfServeSuggestionsMatch\":false,\"name\":\"99.co\",\"features\":{\"anonymousInboundMessages\":true,\"googleAnalytics\":true,\"hubspotInstalled\":false,\"inboundMessages\":true,\"marketoEnrichmentInstalled\":false,\"outboundMessages\":true,\"googleAnalytics4Integration\":false},\"launcherLogoUrl\":null,\"helpCenterSiteUrl\":\"https://intercom.help/99faq\",\"inboundConversationsDisabled\":false,\"isInstantBootEnabled\":true,\"alignment\":\"right\",\"horizontalPadding\":20,\"verticalPadding\":20,\"isDeveloperWorkspace\":false,\"customGoogleAnalyticsTrackerId\":null},\"launcher\":{\"isLauncherEnabled\":true},\"launcherDiscoveryMode\":{\"hasDiscoveredLauncher\":false},\"user\":{\"role\":\"visitor\",\"locale\":\"en\",\"hasConversations\":false},\"message\":{},\"conversations\":{\"byId\":{}},\"openOnBoot\":{\"type\":null,\"metadata\":{}},\"operator\":{\"lastComposerEvent\":0},\"router\":{\"location\":{\"pathname\":\"/\",\"search\":\"\",\"hash\":\"\",\"state\":null,\"key\":\"7ijkxtcz\"},\"action\":\"POP\",\"previousLocations\":[{\"location\":{\"pathname\":\"/\",\"search\":\"\",\"hash\":\"\",\"state\":null,\"key\":\"7ijkxtcz\"},\"action\":\"POP\"}]}}",
+      "33acrossId_csti": ",,",
+      "WZRK_ARP": "%7B%22j_n%22%3A%22Zw%3D%3D%22%2C%22i_n%22%3A%22ZmllfAQJBgE%3D%22%2C%22d_ts%22%3A0%2C%22dh%22%3A0%2C%22v%22%3A2%2C%22j_s%22%3A%22%7B%7D%22%2C%22id%22%3A%226Z6-5Z4-R56Z%22%2C%22e_ts%22%3A0%2C%22r_ts%22%3A1707986447%7D",
+      "@firebase/performance/config": "{\"entries\":{\"fpr_disabled_android_versions\":\"\",\"fpr_disabled_ios_versions\":\"\",\"fpr_disabled_web_versions\":\"\",\"fpr_enabled\":\"true\",\"fpr_experiment_app_start_ttid\":\"true\",\"fpr_log_endpoint_url\":\"https://firebaselogging.googleapis.com/v0cc/log?format=json_proto\",\"fpr_log_source\":\"462\",\"fpr_log_transport_android_percent\":\"100.0\",\"fpr_log_transport_ios_percent\":\"100.0\",\"fpr_log_transport_key\":\"AIzaSyCx80ru6-RXeTi3GvqkFsMVyMf-vpgIoVw\",\"fpr_rl_network_request_event_count_bg\":\"70\",\"fpr_rl_network_request_event_count_fg\":\"700\",\"fpr_rl_time_limit_sec\":\"600\",\"fpr_rl_trace_event_count_bg\":\"30\",\"fpr_rl_trace_event_count_fg\":\"300\",\"fpr_session_gauge_cpu_capture_frequency_bg_ms\":\"0\",\"fpr_session_gauge_cpu_capture_frequency_fg_ms\":\"100\",\"fpr_session_gauge_memory_capture_frequency_bg_ms\":\"0\",\"fpr_session_gauge_memory_capture_frequency_fg_ms\":\"100\",\"fpr_session_max_length_min\":\"240\",\"fpr_vc_fragment_sampling_rate\":\"0.1\",\"fpr_vc_network_request_sampling_rate\":\"1.0\",\"fpr_vc_session_sampling_rate\":\"0.25\",\"fpr_vc_trace_sampling_rate\":\"1.0\"},\"state\":\"UPDATE\",\"templateVersion\":\"456\"}",
+      "WZRK_G": "%22dc5fe16372c1415380e7345aaa14913f%22",
+      "_cc_id_update_ts": "1707986447603",
+      "99user": "{\"name\":\"Siva Reddy\",\"id\":\"kq5EmJLCeSUXzXdhdrd926\",\"photo_url\":null,\"phone\":\"+659885952948\",\"email\":\"siva8kolli@gmail.com\",\"md5_hashed_email\":\"25743769cf7bdf1bb0831f2381adb89f\",\"user_type\":\"Consumer\",\"is_phone_verified\":false,\"last_enquired_date\":null,\"last_enquired_at\":null,\"enquiry_count\":0,\"is_admin\":false}",
+      "_GESPSK-pubcid.org": "[\"pubcid.org\",null,1707986447429,null,null,null,null,null,null,[106]]",
+      "WZRK_K": "%7B%22flag%22%3Atrue%2C%22id%22%3A%22kq5EmJLCeSUXzXdhdrd926%22%7D",
+      "WZRK_L": "%7B%7D",
+      "WZRK_PR": "%7B%22Name%22%3A%22Siva%20Reddy%22%2C%22Identity%22%3A%22kq5EmJLCeSUXzXdhdrd926%22%2C%22Email%22%3A%22siva8kolli%40gmail.com%22%2C%22Phone%22%3A659885952948%2C%22is_phone_verified%22%3Afalse%2C%22MSG-email%22%3Atrue%2C%22MSG-push%22%3Atrue%2C%22MSG-sms%22%3Atrue%2C%22MSG-whatsapp%22%3Atrue%2C%22tz%22%3A%22GMT%2B0530%22%2C%22nid%22%3A%2200d74262-3022-4b4d-9028-b9f350a9de37%22%2C%22user_id%22%3A%22kq5EmJLCeSUXzXdhdrd926%22%2C%22country%22%3A%22sg%22%7D",
+      "reduxPersistedState": "{\"persist\":{\"hasSeen\":{}}}"
+    },
+    "cookies": [
+      {
+        "path": "/",
+        "domain": ".99.co",
+        "name": "meid",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Fri Feb 14 14:10:49 IST 2025",
+        "value": "9dcda224-ac8a-4036-9533-8145c48f218f"
+      },
+      {
+        "path": "/",
+        "domain": "www.99.co",
+        "name": "__rtbh.uid",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Fri Feb 14 19:40:49 IST 2025",
+        "value": "%7B%22eventType%22%3A%22uid%22%2C%22id%22%3A%22unknown%22%7D"
+      },
+      {
+        "path": "/",
+        "domain": "www.99.co",
+        "name": "country",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "value": "SG"
+      },
+      {
+        "path": "/",
+        "domain": ".99.co",
+        "name": "intercom-device-id-e90pxaa2",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Mon Nov 11 14:44:11 IST 2024",
+        "value": "f5a48285-1473-431e-8236-939eee14ca9c"
+      },
+      {
+        "path": "/",
+        "domain": ".99.co",
+        "name": "intercom-id-e90pxaa2",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Mon Nov 11 14:44:11 IST 2024",
+        "value": "cef65d04-c850-400e-8afb-8316d1caa536"
+      },
+      {
+        "path": "/",
+        "domain": "www.99.co",
+        "name": "nid",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Fri Mar 21 14:10:48 IST 2025",
+        "value": "00d74262-3022-4b4d-9028-b9f350a9de37"
+      },
+      {
+        "path": "/",
+        "domain": "www.99.co",
+        "name": "__rtbh.lid",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Fri Feb 14 19:40:49 IST 2025",
+        "value": "%7B%22eventType%22%3A%22lid%22%2C%22id%22%3A%22L0b81UHQtsghJhKFfkJj%22%7D"
+      },
+      {
+        "path": "/",
+        "domain": ".99.co",
+        "name": "__gads",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Tue Mar 11 14:10:47 IST 2025",
+        "value": "ID=581d436c7547552e:T=1707986447:RT=1707986447:S=ALNI_MZcG5wMZ8Xm5dbF-mu9Qg5pbgXjOw"
+      },
+      {
+        "path": "/",
+        "domain": ".99.co",
+        "name": "_ga_GG21BH9GS5",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Fri Mar 21 14:10:49 IST 2025",
+        "value": "GS1.1.1707986449.1.0.1707986449.60.0.0"
+      },
+      {
+        "path": "/",
+        "domain": ".99.co",
+        "name": "lotame_domain_check",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Thu Feb 15 14:10:57 IST 2024",
+        "value": "99.co"
+      },
+      {
+        "path": "/",
+        "domain": ".99.co",
+        "name": "panoramaId_expiry",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Fri Feb 16 14:10:47 IST 2024",
+        "value": "1708072847591"
+      },
+      {
+        "path": "/",
+        "domain": ".99.co",
+        "name": "WZRK_S_6Z6-5Z4-R56Z",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Thu Feb 15 14:30:53 IST 2024",
+        "value": "%7B%22p%22%3A2%2C%22s%22%3A1707986447%2C%22t%22%3A1707986453%7D"
+      },
+      {
+        "path": "/",
+        "domain": "www.99.co",
+        "name": "undefined.undefined__ANO1oJOHRYGPAYZt5KUMsA",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Mon Apr 15 14:10:48 IST 2024",
+        "value": "1"
+      },
+      {
+        "path": "/",
+        "domain": ".99.co",
+        "name": "intercom-session-e90pxaa2",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Thu Feb 22 14:10:51 IST 2024",
+        "value": ""
+      },
+      {
+        "path": "/",
+        "domain": ".99.co",
+        "name": "ajs_anonymous_id",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Fri Feb 14 14:10:53 IST 2025",
+        "value": "00d74262-3022-4b4d-9028-b9f350a9de37"
+      },
+      {
+        "path": "/",
+        "domain": ".99.co",
+        "name": "meid_seg",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Fri Feb 14 14:10:49 IST 2025",
+        "value": "none"
+      },
+      {
+        "path": "/",
+        "domain": ".99.co",
+        "name": "_fbp",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Wed May 15 14:10:53 IST 2024",
+        "value": "fb.1.1707986448791.1656295256"
+      },
+      {
+        "path": "/",
+        "domain": ".99.co",
+        "name": "_gat_UA-34838320-27",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Thu Feb 15 14:11:48 IST 2024",
+        "value": "1"
+      },
+      {
+        "path": "/",
+        "domain": ".99.co",
+        "name": "ajs_user_id",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Fri Feb 14 14:10:53 IST 2025",
+        "value": "kq5EmJLCeSUXzXdhdrd926"
+      },
+      {
+        "path": "/",
+        "domain": "www.99.co",
+        "name": "dicbo_id",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Thu Feb 15 14:15:49 IST 2024",
+        "value": "%7B%22dicbo_fetch%22%3A1707986449840%7D"
+      },
+      {
+        "path": "/",
+        "domain": ".99.co",
+        "name": "_cc_id",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Mon Nov 11 14:10:47 IST 2024",
+        "value": "167f2e088818a4e3db7d05c50a54d1c5"
+      },
+      {
+        "path": "/",
+        "domain": ".99.co",
+        "name": "__gpi",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Tue Mar 11 14:10:47 IST 2025",
+        "value": "UID=00000d07623803fb:T=1707986447:RT=1707986447:S=ALNI_MZ8r_7Tgqny0FEDtnl5cqA4QV1IzA"
+      },
+      {
+        "path": "/",
+        "domain": ".99.co",
+        "name": "__cf_bm",
+        "isHttpOnly": true,
+        "isSecure": true,
+        "expiry": "Thu Feb 15 14:40:46 IST 2024",
+        "value": "btAazDXy_gxkdSb_HKKtYf2G7hKNNG6XiLc8k2lx6zE-1707986446-1.0-AYQUkAHgNk7caTd5SjJhWe1QpPzm1ZguPTNFEM8RkLqbcWAOura/jasw8WfUph03wFHVqtt+gLQF+k/UaDFGuWo="
+      },
+      {
+        "path": "/",
+        "domain": ".99.co",
+        "name": "_ga_9FDXXVZSH0",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Fri Mar 21 14:10:51 IST 2025",
+        "value": "GS1.1.1707986449.1.0.1707986451.0.0.0"
+      },
+      {
+        "path": "/",
+        "domain": ".99.co",
+        "name": "_gid",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Fri Feb 16 14:10:48 IST 2024",
+        "value": "GA1.2.1401804131.1707986449"
+      },
+      {
+        "path": "/",
+        "domain": "www.99.co",
+        "name": "token",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Fri Feb 14 14:10:52 IST 2025",
+        "value": "\"2|1:0|10:1707986452|5:token|76:a3E1RW1KTENlU1VYelhkaGRyZDkyNl87XzIwMjQtMDItMTVUMTY6NDA6NTIuMTgyNDQxKzA4OjAw|8486babe4cda7ff23ec7d681001ce0735e5fb899dc9c4d06ca9cf918603ac672\""
+      },
+      {
+        "path": "/",
+        "domain": ".99.co",
+        "name": "_ga_6C5VMQ1JNP",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Fri Mar 21 14:10:51 IST 2025",
+        "value": "GS1.1.1707986449.1.0.1707986451.58.0.0"
+      },
+      {
+        "path": "/",
+        "domain": ".99.co",
+        "name": "_ga_XW0YWPFYJ7",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Fri Mar 21 14:10:49 IST 2025",
+        "value": "GS1.2.1707986449.1.0.1707986449.0.0.0"
+      },
+      {
+        "path": "/",
+        "domain": "www.99.co",
+        "name": "_ANO1oJOHRYGPAYZt5KUMsA",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Mon Apr 15 14:10:48 IST 2024",
+        "value": "1"
+      },
+      {
+        "path": "/",
+        "domain": ".99.co",
+        "name": "WZRK_G",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Fri Feb 14 14:10:47 IST 2025",
+        "value": "dc5fe16372c1415380e7345aaa14913f"
+      },
+      {
+        "path": "/",
+        "domain": ".99.co",
+        "name": "FCNEC",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Fri Feb 14 14:10:49 IST 2025",
+        "value": "%5B%5B%22AKsRol_EfOGh0qUBeNRRRYe3CsszPo5cFBdxxAYFde4aLxBv5I6dtLqO-W5ytplYf3PQ5nsg8bI4KGyYpCi_iDSNCEdyxEbbj_mqlv1S6zkVQp9nTtyBSVdDGUYC3AcTNmBSgLOgYPkNjTekRqzpfGgkF8GNBKXcOg%3D%3D%22%5D%5D"
+      },
+      {
+        "path": "/",
+        "domain": "www.99.co",
+        "name": "token_v2",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Thu Feb 22 14:10:52 IST 2024",
+        "value": "\"2|1:0|10:1707986452|8:token_v2|32:dVZyTEZwTUJlcTM4b05CaHN6bnBtMw==|c929c71cb634fd359e987b72ef94cd96c233c91d959bac1e36fb1cb69ff60a8f\""
+      },
+      {
+        "path": "/",
+        "domain": ".99.co",
+        "name": "__eoi",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Tue Aug 13 14:10:47 IST 2024",
+        "value": "ID=6f51ae7001471f91:T=1707986447:RT=1707986447:S=AA-AfjbFVwk9o3C2tadSUlCxvYTT"
+      },
+      {
+        "path": "/",
+        "domain": ".99.co",
+        "name": "_ga",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Fri Mar 21 14:10:49 IST 2025",
+        "value": "GA1.1.1464225510.1707986447"
+      },
+      {
+        "path": "/",
+        "domain": ".99.co",
+        "name": "_gcl_au",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Wed May 15 14:10:48 IST 2024",
+        "value": "1.1.1282133580.1707986449"
+      },
+      {
+        "path": "/",
+        "domain": "www.99.co",
+        "name": "_xsrf",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "value": "2|88017647|609fd8f5f309d1f2ca5d51520b3790fc|1707986448"
+      },
+      {
+        "path": "/",
+        "domain": ".www.99.co",
+        "name": "G_ENABLED_IDPS",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Fri Mar 21 14:10:51 IST 2025",
+        "value": "google"
+      }
+    ]
+  },
+  "username": "siva8kolli@gmail.com"
+}

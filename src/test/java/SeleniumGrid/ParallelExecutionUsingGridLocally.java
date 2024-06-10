@@ -61,20 +61,20 @@ public class ParallelExecutionUsingGridLocally {
             case "edge":
                 EdgeOptions edgeOptions = new EdgeOptions();
                 desiredCapabilities = new DesiredCapabilities();
-                desiredCapabilities.setCapability("platfromName", Platform.MAC);
+                //desiredCapabilities.setCapability("platfromName", Platform.MAC);
                 desiredCapabilities.setCapability("browserName", "MicrosoftEdge");
                 edgeOptions.merge(desiredCapabilities);
                 driver = new RemoteWebDriver(new URL("http://127.0.0.1:4444/wd/hub"), edgeOptions);
                 break;
 
-            case "safari":
+           /* case "safari":
                 SafariOptions safariOptions = new SafariOptions();
                 desiredCapabilities = new DesiredCapabilities();
                 desiredCapabilities.setCapability("platfromName", Platform.MAC);
                 desiredCapabilities.setCapability("browserName", "safari");
                 safariOptions.merge(desiredCapabilities);
                 driver = new RemoteWebDriver(new URL("http://127.0.0.1:4444/wd/hub"), safariOptions);
-                break;
+                break;*/
         }
 
         return driver;

@@ -1,0 +1,37 @@
+{
+  "newServiceRequests": [
+    {
+      "propertyType": "Tower",
+      "requestType": "Area",
+      "problemType": "Maintenance"
+    },
+    {
+      "propertyType": "Residences",
+      "requestType": "Customer",
+      "problemType": "Handover"
+    },
+    {
+      "propertyType": "Commercial",
+      "requestType": "Building",
+      "problemType": "Gas"
+    }
+  ],
+
+  "latestServiceRequests": [
+    {
+      "propertyType": "Tower",
+      "requestType": "Area",
+      "problemType": "Maintenance"
+    },
+    {
+      "propertyType": "Residences",
+      "requestType": "Customer",
+      "problemType": "Handover"
+    },
+    {
+      "propertyType": "Commercial",
+      "requestType": "Building",
+      "problemType": "Gas"
+    }
+  ]
+}
