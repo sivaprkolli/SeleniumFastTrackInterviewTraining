@@ -22,16 +22,16 @@ public class ShadowRoot {
     }
 
     @Test
-    public void assignmentTest2(){
+    public void assignmentTest2() throws InterruptedException {
         ChromeOptions options = new ChromeOptions();
-        options.setBrowserVersion("120");
+       // options.setBrowserVersion("120");
 
         driver = new ChromeDriver(options);
         driver.get("https://www.salesforce.com/in/");
 
         SearchContext mainShadowRoot = driver.findElement(By.xpath("(//*[@origin=\"https://wp.sfdcdigital.com/en-in/wp-json\"])[1]")).getShadowRoot();
         mainShadowRoot.findElement(By.cssSelector("[data-tracking-type=\"cta-utility\"]")).click();
-
+        Thread.sleep(5000);
         driver.quit();
     }
 }

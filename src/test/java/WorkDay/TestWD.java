@@ -16,7 +16,7 @@ public class TestWD {
     public void assignmnetTest() {
         ChromeOptions options = new ChromeOptions();
         driver = new ChromeDriver(options);
-        driver.get("https://wd3.myworkday.com/lifeworks/d/home.htmld");
+        driver.get("https://.test.com/test/d/home.htmld");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 
