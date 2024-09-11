@@ -8,15 +8,15 @@ public class LogsCheck {
     private static final Logger logger
             = LoggerFactory.getLogger(LogsCheck.class);
 
-    private static final Logger logger1
+    public final Logger logger1
             = LoggerFactory.getLogger(LogsCheck.class);
 
-    public static void main(String[] args) {
+   /* public static void main(String[] args) {
         logger1.info("Example log from {}", LogsCheck.class.getSimpleName());
-    }
+    }*/
 
     @Test
     public void verifyLogs() {
-
+        logger1.info("Example log from {}", LogsCheck.class.getSimpleName());
     }
 }
