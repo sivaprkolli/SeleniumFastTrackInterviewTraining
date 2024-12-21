@@ -1,3 +1,5 @@
 .idea/runConfigurations.xml
 .idea
 target
+allure-results
+.idea/misc.xml
