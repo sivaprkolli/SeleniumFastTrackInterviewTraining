@@ -20,11 +20,7 @@ public class FileDownloadTest {
         chromePrefs.put("download.prompt_for_download", "false");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("start-maximized");
-        //options.addArguments("--headless"); // Optional: Run headless
-//        options.add_experimental_option("download.default_directory", downloadDir);
-//        options.addUserProfilePreference("download.prompt_for_download", false);
         options.setExperimentalOption("prefs", chromePrefs);
-
         WebDriver driver = new ChromeDriver(options);
         driver.get("https://the-internet.herokuapp.com/download");
 

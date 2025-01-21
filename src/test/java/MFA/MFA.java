@@ -30,7 +30,7 @@ public class MFA {
     public void getOTP() throws InterruptedException, IOException, NotFoundException {
 
         driver = new ChromeDriver();
-        driver.get("https://lifeworkstesting-uk.test.lifeworks.com/");
+        driver.get("https://test.com/");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
         WebDriverWait webDriverWait = new WebDriverWait(driver, Duration.ofSeconds(20));
@@ -122,7 +122,7 @@ public class MFA {
 
     public void takeElementScreenshot(WebElement element) {
         File source = element.getScreenshotAs(OutputType.FILE);
-        File dest = new File(System.getProperty("user.dir") +    "/qrCode/elementLogo.png");
+        File dest = new File(System.getProperty("user.dir") +    "/qrCode/elementLogo.jpg");
 
         try {
             FileHandler.copy(source, dest);
@@ -132,7 +132,7 @@ public class MFA {
     }
 
     public void readSecretCodeFromQRImage() throws NotFoundException, IOException, WriterException {
-        String actualSecretCode = getQRCodeData(System.getProperty("user.dir") +    "/qrCode/elementLogo.png");
+        String actualSecretCode = getQRCodeData(System.getProperty("user.dir") +    "/qrCode/elementLogo.jpg");
         actualSecretCode = actualSecretCode.substring(actualSecretCode.indexOf("=") + 1);
         actualSecretCode = actualSecretCode.substring(0, actualSecretCode.indexOf("&"));
         System.out.println(actualSecretCode);

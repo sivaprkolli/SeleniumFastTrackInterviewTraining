@@ -15,7 +15,7 @@ import java.util.Map;
 public class ReadQRCodeFromImage {
     @Test
     public void readSecretCodeFromQRImage() throws NotFoundException, IOException, WriterException {
-        String actualSecretCode = getQRCodeData(System.getProperty("user.dir") +    "/qrCode/elementLogo.png");
+        String actualSecretCode = getQRCodeData(System.getProperty("user.dir") +    "/qrCode/elementLogo.jpg");
         actualSecretCode = actualSecretCode.substring(actualSecretCode.indexOf("=") + 1);
         actualSecretCode = actualSecretCode.substring(0, actualSecretCode.indexOf("&"));
         System.out.println(actualSecretCode);
