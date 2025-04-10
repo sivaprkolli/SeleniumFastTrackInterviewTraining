@@ -181,8 +181,8 @@
                 <version>3.0.0-M5</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>testNGSuites/AAAtestng.xml</suiteXmlFile>
-<!--                        <suiteXmlFile>testNGSuites/testng.xml</suiteXmlFile>-->
+                        <suiteXmlFile>${suiteFile}.xml</suiteXmlFile>
+<!--                        <suiteXmlFile>testNGSuites/AAAtestng.xml</suiteXmlFile>-->
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

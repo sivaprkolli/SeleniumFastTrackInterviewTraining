@@ -1,5 +1,7 @@
 package JavaPrograms;
 
+import org.testng.Assert;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,11 +10,13 @@ public class CompareStringsAndDates {
        String str = "1990/10/08";
         System.out.println(str.matches("\\d{4}/\\d{2}/\\d{2}"));
 
+     Assert.assertTrue(str.matches("\\d{4}/\\d{2}/\\d{2}"));
+
         String s = "@#$%^&*34567890trdtfgahvbjnkjlljhgfdgDGAFSGDHJKFLSDHG";
 
         String name = "Siva Prasad";
         String[] fullName = name.split(" ");
-        System.out.println(fullName.length == 2);
+        Assert.assertTrue(fullName.length == 2);
 
         System.out.println(s.replaceAll("[^0-9]", ""));
         System.out.println(s.replaceAll("[^a-z]", ""));
