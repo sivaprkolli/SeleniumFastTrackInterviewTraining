@@ -1,8 +1,6 @@
 package SeleniumGrid;
 
-import org.apache.commons.math3.geometry.spherical.twod.Edge;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -12,8 +10,6 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
-import org.openqa.selenium.safari.SafariOptions;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -21,24 +17,15 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import java.net.MalformedURLException;
-import java.net.URL;
 
-public class ParallelExecutionUsingGridLocally {
-
-//https://www.linkedin.com/pulse/selenium-parallel-testing-using-java-threadlocal-testng-shargo/
+public class WithOutThreadLocal {
     public static DesiredCapabilities desiredCapabilities;
-    protected static ThreadLocal<WebDriver> threadLocalDriver = new ThreadLocal<>();
-
-    //get thread-safe driver
-    public static WebDriver getDriver(){
-        return threadLocalDriver.get();
-    }
+   static WebDriver driver;
 
     @Parameters({"browserName"})
     @BeforeTest
     public void setup(String browserName) throws MalformedURLException {
-        WebDriver driver = setupBrowser(browserName);
-        threadLocalDriver.set(driver);
+        driver = setupBrowser(browserName);
         System.out.println("Before Test Thread ID: "+Thread.currentThread().getId());
     }
 
@@ -51,7 +38,7 @@ public class ParallelExecutionUsingGridLocally {
                 desiredCapabilities.setCapability("browserName", "firefox");
                 firefoxOptions.merge(desiredCapabilities);
                 driver = new FirefoxDriver(firefoxOptions);
-               // driver = new RemoteWebDriver(new URL("http://127.0.0.1:4444/wd/hub"), firefoxOptions);
+                // driver = new RemoteWebDriver(new URL("http://127.0.0.1:4444/wd/hub"), firefoxOptions);
                 break;
 
             case "chrome":
@@ -88,26 +75,42 @@ public class ParallelExecutionUsingGridLocally {
     }
 
     @Test
-    public void assignmnetTest() throws InterruptedException {
-        Thread.sleep(2000);
-        getDriver().get("https://www.saucedemo.com/");
+    public void assignmnetTest1() throws InterruptedException {
 
-        WebElement userNameInputBox = getDriver().findElement(By.cssSelector("#user-name"));
+        driver.get("https://www.saucedemo.com/");
+
+        WebElement userNameInputBox = driver.findElement(By.cssSelector("#user-name"));
         userNameInputBox.sendKeys("standard_user");
-
-        WebElement passwordInputBox = getDriver().findElement(By.name("password"));
+        WebElement passwordInputBox = driver.findElement(By.name("password"));
         passwordInputBox.sendKeys("secret_sauce");
 
-        WebElement loginButton = getDriver().findElement(By.cssSelector(".submit-button.btn_action"));
+        WebElement loginButton = driver.findElement(By.cssSelector(".submit-button.btn_action"));
         loginButton.click();
-        WebElement productsHeading = getDriver().findElement(By.cssSelector(".title"));
+        WebElement productsHeading = driver.findElement(By.cssSelector(".title"));
+        Assert.assertTrue(productsHeading.isDisplayed());
+    }
+
+   // @Test
+    public void assignmnetTest2() throws InterruptedException {
+
+        driver.get("https://www.saucedemo.com/");
+
+        WebElement userNameInputBox = driver.findElement(By.cssSelector("#user-name"));
+        userNameInputBox.sendKeys("standard_user");
+        WebElement passwordInputBox = driver.findElement(By.name("password"));
+        passwordInputBox.sendKeys("secret_sauce");
+
+        WebElement loginButton = driver.findElement(By.cssSelector(".submit-button.btn_action"));
+        loginButton.click();
+
+        WebElement productsHeading = driver.findElement(By.cssSelector(".title"));
         Assert.assertTrue(productsHeading.isDisplayed());
     }
 
     @AfterTest
     public void killSession() {
-        getDriver().quit();
+        driver.quit();
         System.out.println("After Test Thread ID: "+Thread.currentThread().getId());
-        threadLocalDriver.remove();
+        //threadLocalDriver.remove();
     }
 }
