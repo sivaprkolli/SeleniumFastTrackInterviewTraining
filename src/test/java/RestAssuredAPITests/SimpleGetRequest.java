@@ -60,8 +60,25 @@ public class SimpleGetRequest {
         System.out.println(lat +"  :: " +  lon);
 
         Assert.assertEquals(responseData, "Vijayawada");
+    }
 
+    //https://airport-data.com/api/doc.php
+    @Test
+    public void getAirportCode(){
 
+        String airport = getAirportName("PHX");
+        System.out.println(airport);
+    }
 
+    public String getAirportName(String code){
+        Response response =
+                given()
+                        .queryParam("iata", code)
+                        .when()
+                        .contentType(ContentType.JSON)
+                        .get("https://airport-data.com/api/ap_info.json");
+        String airportName = response.then().extract().path("name");
+        System.out.println(airportName);
+        return airportName;
     }
 }

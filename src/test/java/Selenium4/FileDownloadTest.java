@@ -20,12 +20,13 @@ public class FileDownloadTest {
         chromePrefs.put("download.prompt_for_download", "false");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("start-maximized");
+       // options.addArguments("--headless");
         options.setExperimentalOption("prefs", chromePrefs);
         WebDriver driver = new ChromeDriver(options);
         driver.get("https://the-internet.herokuapp.com/download");
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        driver.findElement(By.cssSelector("[href='download/sample.png']")).click();
+        driver.findElement(By.cssSelector("[href='download/fileToUpload.txt']")).click();
         Thread.sleep(5000);
         File downloadedFile = new File(downloadDir + "/sample.png");
         if (downloadedFile.exists()) {
@@ -33,7 +34,6 @@ public class FileDownloadTest {
         } else {
             System.out.println("File not downloaded!");
         }
-
         driver.quit();
 
 
