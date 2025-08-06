@@ -1,0 +1,11 @@
+{
+  "firstname" : "Siva",
+  "lastname" : "Kolli",
+  "totalprice" : 555,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2025-08-05",
+    "checkout" : "2025-08-13"
+  },
+  "additionalneeds" : "Biryani"
+}
